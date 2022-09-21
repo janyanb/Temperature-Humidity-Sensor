@@ -1,0 +1,12 @@
+[Unit]
+Description=Dht-11 Sensor 
+After=postgresql.service
+
+[Service]
+User=pi
+ENVIRONMENT=TIMESCALEDB_CONNECTION=postgres://USERNAME:PASSWORD@HOST:PORT/defaultdb?sslmode=require
+ExecStart=/home/pi/dht11.py
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target
