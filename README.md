@@ -1,5 +1,5 @@
 # Temperature-Humidity-Sensor
-Measures Temperature and Humidity using the raspberry pi and stores it on a TimescaleDB instance on Timescale Cloud
+Measures Temperature and Humidity using the raspberry pi and stores it on a InfluxDB instance on InfluxDB Cloud
 
 SENSOR CONNECTION:
 
